@@ -1,0 +1,38 @@
+      Welcome to ApnaBank.com
+
+      enter username :admin
+      entre password :admin
+      valid username and password 
+
+      1.create account 
+      2.display account
+      3.withdrawal
+      4.depsoit
+      5.exit
+
+
+      withdrwaal condition 
+
+
+
+      GST  Program 
+
+      total = 0
+      	enter the total no. of items 4
+
+      	enter item name  : mobile 
+      	enter item price :6789
+
+
+      	total = total +price 
+
+
+      	Total amount  56000
+      	gst -18%
+
+      	your total including gst is 56700
+
+
+
+
+
