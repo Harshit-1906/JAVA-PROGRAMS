@@ -1,0 +1,92 @@
+Arrays in java 
+	- collection of elements with same datatype .
+	- indexing start from 0 to n-1 
+	- static memory allocation it allocates memory at compile time 
+	eg- 
+		int a[5];
+
+		a[0]	a[1]	a[2]	a[3]	a[4]
+		gv 		gv		gv		gv		gv 
+		100		104		108		112		116
+
+	disd- 
+		1.we can't grow and shrink the size of an array .
+		2.insertion and deletion of difficult 
+
+	- array is an object 
+
+	2 ways to declare an array 
+
+	1.literals 
+		int a[]={11,2,4,45};
+
+		a[0]	a[1]	a[2]	a[3]
+		11 		2   	4 		45 
+		100    104    108      112 
+
+
+	2.new keyword 
+
+	syntax- 
+		datatype array_name[]=new datatype[size];
+	eg= 
+		int a[]=new int[10];
+
+
+	Seraching 
+
+		2 types of seraching 
+
+			1.linear 
+				- small amount of data 
+				-unsorted order 
+boolean flag=false ;
+
+		for (int i=0;i<n ;i++ ) {
+
+			if(a[i]==key)
+			{
+				flag=true;
+				break;
+			}
+		}
+		if(flag==true)
+		{
+			System.out.println(key+" is found at "+(i+1)+" psoition ");
+		}
+		else 
+		{
+			System.out.println(key+" not found ");
+		}
+		a[]= 1 2 45 67 89 11 
+		n=6 , key=67 ,flag=true 
+		i 
+		0<6 t 	1==67 false 
+		1<6 t   2==67 false 
+		2<6 t 	45==67 false 
+		3<6 t 	67==67 true 
+		67 is found at 4 positiom 
+
+		n=4 
+		11 2 33 5
+		key = 99, falg=false 
+		i
+		0<4 t 	11==99 false 
+		1<4 t 	2==99 false 
+		2<4 t 	33==99 false 
+		3<4 t 	5==99 false 
+		4<4 false 
+
+
+		99 is not found 
+			2.binary 
+				- large amount of data 
+				- sorted order 
+
+
+ types of array 
+
+ 	1.1D array done 
+ 	2.2D array 
+ 	
+ 	3.multi-dimensional array 

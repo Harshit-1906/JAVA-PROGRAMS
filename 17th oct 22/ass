@@ -1,0 +1,24 @@
+4.sum of all array elements 
+5.display min and max value 
+6.copy 1 array to another array 
+	int copyArray[]=new int[10];
+
+	copyArray[0]=a[0]
+	copyArray[1]=a[1]
+7.search an element 
+	1 222 3 445 6 78 9 
+enter the element you want to search 
+	445 
+445 is found in array at 4th position 
+enter the element you want to search 
+	99 
+99 is not found  
+
+8.swapping 1st and last element from array 
+	1 2 3 4 6
+output 6 2 3 4 1 
+9.display all even elements from array 
+	1 2 3 4 5 67 6 44 
+	even - 2 4 6 44 
+
+
