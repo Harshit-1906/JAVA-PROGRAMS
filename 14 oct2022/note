@@ -1,0 +1,22 @@
+Constructor 
+
+	- is used to intialiaze the objects .
+	- special member function .
+	- ctor name is same as classname .
+	- 2 types of constructor 
+		1.default ctor 
+		2.parameterised ctor 
+
+	- it automatically calls when you will create an instance / object of that class.
+
+	- it allocate the memory 
+	- ctor doesn't have returntype not even void .
+	
+
+
+	void addition(int a, int b)
+	{
+
+	}
+
+	obj.addition(12,4);

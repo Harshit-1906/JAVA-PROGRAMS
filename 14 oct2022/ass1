@@ -1,0 +1,12 @@
+Bank 
+	acno
+	name
+	balance 
+	mno 
+
+
+constructor  for input 
+display() method 
+withdrwal()
+deposit()
+
